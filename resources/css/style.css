@@ -1317,6 +1317,18 @@ footer {
         white-space: normal !important;
         word-break: normal !important;
     }
+    .checkout-mobile {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        margin: 0 !important;
+        padding: 8px 10px !important;
+        font-size: 11px !important;
+        line-height: 18px !important;
+        border-radius: 5px;
+        z-index: 10000;
+        white-space: nowrap;
+    }
 }
 
 
