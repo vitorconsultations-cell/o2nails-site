@@ -1317,17 +1317,26 @@ footer {
         white-space: normal !important;
         word-break: normal !important;
     }
+        .navbar-header {
+        position: relative;
+    }
+
     .checkout-mobile {
-        position: absolute;
-        right: 10px;
-        top: 5px;
+        position: absolute !important;
+        top: 7px !important;
+        right: 8px !important;
+        display: inline-block !important;
+        width: auto !important;
+        max-width: none !important;
+        height: auto !important;
         margin: 0 !important;
-        padding: 8px 10px !important;
+        padding: 7px 10px !important;
         font-size: 11px !important;
-        line-height: 18px !important;
-        border-radius: 5px;
-        z-index: 10000;
-        white-space: nowrap;
+        line-height: 16px !important;
+        border-radius: 5px !important;
+        z-index: 10000 !important;
+        white-space: nowrap !important;
+        box-sizing: border-box;
     }
 }
 
