@@ -1261,8 +1261,35 @@ footer {
         font-size: 13px;
         letter-spacing: 0.5px;
     }
-}
+        /* Ajuste do rodapé no celular */
+    .footer {
+        width: 100%;
+    }
 
+    .footer > .col-xs-7,
+    .footer > .col-xs-5 {
+        width: 100%;
+        float: none;
+    }
+
+    .footer-contact .row > [class*="col-xs-"] {
+        width: 25%;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .footer-contact-code {
+        width: 56px;
+        height: 56px;
+    }
+
+    .footer-contact .row p {
+        font-size: 11px;
+        line-height: 1.25;
+        margin-top: 5px;
+        word-break: normal;
+    }
+}
 
 
 
