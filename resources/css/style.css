@@ -749,7 +749,21 @@ footer {
     .copyright a {
         margin-right: 10px;
     }
-    
+    /* Ajuste de espaçamento da página inicial no celular */
+    .container.index-main {
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+    }   
+        .index-entrance {
+        margin-bottom: 12px;
+    }
+
+    #new-banner {
+        margin-bottom: 12px;
+    }
+        #index-media .row > div {
+        margin-bottom: 12px;
+    }
 }
 
 /* 
